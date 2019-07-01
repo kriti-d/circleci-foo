@@ -21,3 +21,5 @@ jobs: # a collection of steps
       - run: # run snyk test - run snyk test
           name: snyk test
           command: snyk test
+    enviornment:
+     SNYK_TOKEN: 8caa6962-8662-4d2d-88f8-963011f85338

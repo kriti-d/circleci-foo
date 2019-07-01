@@ -4,8 +4,6 @@ jobs: # a collection of steps
     working_directory: ~/goof # directory where steps will run
     docker: # run the steps with Docker
       - image: circleci/node # ...with this image as the primary container; this is where all `steps` will run
-          enviornment:
-            SNYK_TOKEN: 8caa6962-8662-4d2d-88f8-963011f85338
     steps: # a collection of executable commands
       - checkout # special step to check out source code to working directory
       - run:
